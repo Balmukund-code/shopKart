@@ -1,0 +1,352 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.statusbar {
+    width: 100%;
+    height: 42px;
+    background: #1A1A1A;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.leftStatus {
+    display: flex;
+    color: #626262;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.leftStatus li {
+    padding-left: 20px;
+}
+
+.line1 {
+    width: 2px;
+    height: 19px;
+    background: #626262;
+}
+
+.rightStatus {
+    display: flex;
+    color: #626262;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.rightStatus li {
+    padding-right: 20px;
+}
+
+.nav-container {
+    width: 100%;
+    height: 622px;
+    background: #161615;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo ul {
+    color: #FFF;
+    font-family: Poppins;
+}
+
+.logoName {
+    position: absolute;
+    padding-left: 70px;
+    top: -35px;
+    font-size: 40px;
+}
+
+.wishlist {
+    display: flex;
+    padding-right: 70px;
+}
+
+.wishlist li {
+    padding-left: 20px;
+}
+
+.line2 {
+    width: 100;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 1px;
+    background-color: #626262;
+    position: relative;
+}
+
+.line2 svg {
+    position: absolute;
+    top: -10px;
+    left: 25%;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menubar {
+    width: 20px;
+    height: 16px;
+    display: none;
+}
+
+.menu li {
+    padding-left: 80px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.submenu {
+    position: absolute;
+    left: 280px;
+    /* display: none; */
+}
+
+.submenu:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding-top: 5px;
+}
+
+.rect1 {
+    position: absolute;
+    width: 80%;
+    height: 290px;
+    background: #F07E15;
+    right: 0px;
+    bottom: 60px;
+    opacity: 0.8;
+}
+
+.star {
+    position: absolute;
+    overflow: auto;
+    width: 311px;
+    height: 317px;
+    right: 80px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.man {
+    position: absolute;
+    right: 120px;
+    height: 520px;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.fresh {
+    position: absolute;
+    left: 100px;
+    top: 110px;
+    font-size: 100px;
+    color: #FFF;
+}
+
+.year {
+    position: absolute;
+    left: 230px;
+    top: 200px;
+    font-size: 100px;
+    -webkit-text-stroke: 3px #FFF;
+    color: transparent;
+    word-spacing: 10px;
+
+}
+
+.look {
+    position: absolute;
+    left: 120px;
+    top: 290px;
+    font-size: 100px;
+    color: #FFF;
+}
+
+.try {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    bottom: 40px;
+    left: 100px;
+}
+
+.line3 {
+    width: 68%;
+    top: 430px;
+    height: 2px;
+    background-color: rgb(242, 237, 237);
+    position: relative;
+}
+
+.line3 svg {
+    position: absolute;
+    top: -46px;
+    left: 99%;
+    z-index: 2;
+}
+
+
+
+@media(max-width:390px) {
+    * {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .leftStatus {
+        padding: 0px;
+    }
+
+    .rightStatus {
+        padding: 0px;
+    }
+
+    .leftStatus li {
+        padding-left: 10px;
+        font-size: 8px;
+    }
+
+    .rightStatus li {
+        font-size: 8px;
+        padding-right: 10px;
+    }
+
+    .menu {
+        display: none;
+        color: #FFF;
+        flex-direction: column-reverse;
+        width: 100%;
+        background-color: #161615;
+        position: absolute;
+        z-index: 3;
+        top: 45px;
+    }
+
+    .menu li {
+        text-align: center;
+        padding-bottom: 30px;
+
+    }
+
+    .submenu {
+        position: static;
+        left: 0px;
+        /* display: none; */
+    }
+
+    .logoName {
+        position: inherit;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+
+    .wishlist {
+        display: none;
+    }
+
+    .menubar {
+        display: block;
+        padding: 20px;
+    }
+
+    .line2 {
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 1px;
+        background-color: #626262;
+        position: relative;
+        top: -12px;
+    }
+
+    .line2 svg {
+        position: absolute;
+        left: 25%;
+        top: -11px;
+    }
+
+    .rect1 {
+        width: 100%;
+    }
+
+    .star {
+        right: -100px;
+    }
+
+    .man {
+        right: -80px;
+        object-fit: cover;
+    }
+
+    .fresh {
+        left: 20px;
+        top: 250px;
+        font-size: 60px;
+        z-index: 2;
+    }
+
+    .year {
+        left: 100px;
+        top: 300px;
+        font-size: 60px;
+        z-index: 2;
+    }
+
+    .look {
+        position: absolute;
+        left: 40px;
+        top: 350px;
+        font-size: 60px;
+        z-index: 2;
+    }
+
+    .try {
+        bottom: 20px;
+        left: 30px;
+    }
+
+    .line3 {
+        width: 40%;
+        top: 430px;
+        height: 2px;
+        background-color: #626262;
+        position: relative;
+    }
+
+    .line3 svg {
+        position: absolute;
+        top: -46px;
+        left: 99%;
+    }
+}
