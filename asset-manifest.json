@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/shopkart/static/css/main.035dde6e.css",
+    "main.js": "/shopkart/static/js/main.0c6ee929.js",
+    "static/js/787.4873b727.chunk.js": "/shopkart/static/js/787.4873b727.chunk.js",
+    "static/media/zesica.png": "/shopkart/static/media/zesica.b1b1412379253535d094.png",
+    "static/media/Star.png": "/shopkart/static/media/Star.b13e19c955a8eb5fcd61.png",
+    "index.html": "/shopkart/index.html",
+    "main.035dde6e.css.map": "/shopkart/static/css/main.035dde6e.css.map",
+    "main.0c6ee929.js.map": "/shopkart/static/js/main.0c6ee929.js.map",
+    "787.4873b727.chunk.js.map": "/shopkart/static/js/787.4873b727.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.035dde6e.css",
+    "static/js/main.0c6ee929.js"
+  ]
+}
